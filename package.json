@@ -1,14 +1,15 @@
 {
   "name": "adventofcode2023",
   "version": "1.0.0",
-  "main": "main.js",
+  "scripts": {
+    "test": "mocha",
+    "test:day1:first": "npm test ./day1/firstPart/test/",
+    "main:day1:first": "node ./day1/firstPart/main.js"
+  },
   "directories": {
     "test": "test"
   },
   "type": "module",
-  "scripts": {
-    "test": "mocha"
-  },
   "license": "ISC",
   "devDependencies": {
     "mocha": "^10.2.0"
